@@ -102,3 +102,7 @@ variable "TFC_WORKSPACE_NAME" {
   type        = string
   default     = null
 }
+
+variable "aws_access_key_id" {}
+
+variable "aws_secret_access_key" {}
