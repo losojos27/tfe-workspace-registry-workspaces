@@ -103,9 +103,19 @@ variable "TFC_WORKSPACE_NAME" {
   default     = null
 }
 
-variable "aws_access_key_id" {}
+variable "aws_access_key_id" {
+  description = "AWS credentials to be used by these workspaces"
+  type        = string
+  default     = null
+}
 
-variable "aws_secret_access_key" {}
+
+variable "aws_secret_access_key" {
+  description = "AWS credentials to be used by these workspaces"
+  type        = string
+  default     = null
+}
+
 
 variable "tfc_token" {
   description = "TFC Team Token"
