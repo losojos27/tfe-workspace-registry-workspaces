@@ -106,3 +106,9 @@ variable "TFC_WORKSPACE_NAME" {
 variable "aws_access_key_id" {}
 
 variable "aws_secret_access_key" {}
+
+variable "tfc_token" {
+  description = "TFC Team Token"
+  type        = string
+  default     = null
+}
