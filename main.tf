@@ -17,9 +17,9 @@ module "workspaces" {
   vcs_repo       = var.vcs_repo
   workspaces     = var.workspaces
 
-  # tf_version     = "1.x.y"
-  # slacks             = var.slacks
-  # triggers           = var.triggers
+  # tf_version   = "1.x.y"
+  # slacks       = var.slacks
+  # triggers     = var.triggers
 
   TFC_WORKSPACE_NAME = var.TFC_WORKSPACE_NAME
 
